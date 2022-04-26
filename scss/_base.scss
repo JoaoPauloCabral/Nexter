@@ -29,6 +29,7 @@ $font-display: 'Josefin Sans', sans-serif;
     width: calc(100vw - 8rem);
     height: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
     display: grid;
     grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
     grid-template-columns:
